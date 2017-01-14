@@ -1,0 +1,3 @@
+Gyroscope X and Z barely come through
+In fact, all gyros need to be twice as much
+

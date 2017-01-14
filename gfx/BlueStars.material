@@ -1,0 +1,19 @@
+material BlueStarsSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+        cubic_texture overlapblue_front5.png overlapblue_back6.png overlapblue_left2.png overlapblue_right1.png overlapblue_top3.png overlapblue_bottom4.png  separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+// front, back, left, right, up, and down

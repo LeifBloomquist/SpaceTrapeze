@@ -1,0 +1,19 @@
+material RedNebulaSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+        cubic_texture rednebula1_front5.png rednebula1_back6.png rednebula1_left2.png rednebula1_right1.png rednebula1_top3.png rednebula1_bottom4.png  separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+// front, back, left, right, up, and down

@@ -1,0 +1,19 @@
+material GalaxySkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+        cubic_texture galaxy1_front5.png galaxy1_back6.png galaxy1_left2.png galaxy1_right1.png galaxy1_top3.png galaxy1_bottom4.png  separateUV
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+// front, back, left, right, up, and down
